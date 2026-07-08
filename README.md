@@ -81,7 +81,7 @@ kind of first-pass detection logic that feeds a SOAR playbook.
 
 ## About the author
 
-I'm **Ese Rose Idjogbe**, a CompTIA Security+ certified Governance, Risk &
+I'm **Ese Idjogbe**, a CompTIA Security+ certified Governance, Risk &
 Compliance professional based in Sheffield, UK, focused on the intersection
 of information-security risk and AI governance. I've delivered ISO
 27001-aligned risk assessments, third-party/supplier risk reviews, and
