@@ -1,0 +1,13 @@
+timestamp,user,source_ip,location,result,privileged
+2026-03-01T09:00:00,jsmith,10.0.1.5,New York,success,false
+2026-03-01T09:15:00,jsmith,10.0.1.5,New York,success,false
+2026-03-01T22:45:00,jsmith,203.0.113.9,London,success,true
+2026-03-01T22:52:00,jsmith,198.51.100.4,Singapore,success,true
+2026-03-02T10:00:00,agupta,10.0.2.8,Chicago,failure,false
+2026-03-02T10:01:00,agupta,10.0.2.8,Chicago,failure,false
+2026-03-02T10:02:00,agupta,10.0.2.8,Chicago,failure,false
+2026-03-02T10:03:00,agupta,10.0.2.8,Chicago,failure,false
+2026-03-02T10:04:00,agupta,10.0.2.8,Chicago,failure,false
+2026-03-02T10:05:00,agupta,10.0.2.8,Chicago,success,false
+2026-03-03T02:30:00,tokafor,10.0.3.2,New York,success,true
+2026-03-03T14:00:00,mrodriguez,10.0.4.1,New York,success,false

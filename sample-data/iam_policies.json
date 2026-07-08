@@ -1,0 +1,78 @@
+[
+  {
+    "PolicyName": "DashboardAppRolePolicy",
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["rds:DescribeDBInstances", "rds-db:connect"],
+          "Resource": "arn:aws:rds:us-east-1:123456789012:db:customer-db"
+        },
+        {
+          "Effect": "Allow",
+          "Action": ["iam:PassRole", "ec2:RunInstances"],
+          "Resource": "*"
+        }
+      ]
+    }
+  },
+  {
+    "PolicyName": "DataAnalystPolicy",
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": "*",
+          "Resource": "*"
+        }
+      ]
+    }
+  },
+  {
+    "PolicyName": "S3AdminDeletePolicy",
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": ["s3:DeleteBucket", "s3:GetObject"],
+          "Resource": "arn:aws:s3:::finance-reports"
+        }
+      ]
+    }
+  },
+  {
+    "PolicyName": "BreakGlassAdminPolicy",
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": "iam:DeleteUser",
+          "Resource": "*",
+          "Condition": {
+            "NumericLessThan": {
+              "aws:MultiFactorAuthAge": "3600"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "PolicyName": "CIRoleTrustPolicy",
+    "Type": "TrustPolicy",
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Principal": { "AWS": "*" },
+          "Action": "sts:AssumeRole"
+        }
+      ]
+    }
+  }
+]

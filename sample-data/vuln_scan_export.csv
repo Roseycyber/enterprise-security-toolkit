@@ -1,0 +1,9 @@
+finding_id,host,description,cvss_score,asset_criticality,exploit_available,internet_facing
+V-1001,web-prod-01,Outdated OpenSSL version with known TLS vulnerability,7.5,5,true,true
+V-1002,internal-wiki-03,Cross-site scripting in comment field,6.1,2,false,false
+V-1003,db-prod-02,Unpatched database CVE with public PoC exploit,9.8,5,true,false
+V-1004,dev-sandbox-11,Missing security headers on dev site,3.1,1,false,true
+V-1005,api-gateway-prod,Broken access control allowing IDOR on customer records,8.2,5,false,true
+V-1006,print-server-04,"SMBv1 enabled, no known active exploitation",5.3,2,false,false
+V-1007,vpn-gateway-01,Outdated firmware with critical remote code execution CVE,9.9,5,true,true
+V-1008,staging-app-07,Verbose error messages disclosing stack traces,4.0,2,false,false
