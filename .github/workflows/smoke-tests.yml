@@ -1,0 +1,27 @@
+name: Tool smoke tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  run-tools:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run IAM Policy Analyzer against sample data
+        run: python3 tools/iam_policy_analyzer.py sample-data/iam_policies.json
+
+      - name: Run Vulnerability Triage Helper against sample data
+        run: python3 tools/vuln_triage_helper.py sample-data/vuln_scan_export.csv
+
+      - name: Run SIEM Anomaly Detector against sample data
+        run: python3 tools/siem_anomaly_detector.py sample-data/auth_logs.csv
