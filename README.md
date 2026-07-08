@@ -95,7 +95,7 @@ repository is part of that: the hands-on side of GRC.
 Microsoft Azure Fundamentals (AZ-900) · ISO 27001 & ISO 42001 (trained) ·
 structured cybersecurity apprenticeship.
 
-💼 LinkedIn: *add your URL* · 📫 eserosep.venture@gmail.com
+💼 LinkedIn: [vb *add your URL](https://www.linkedin.com/in/eseidjogbe/)* · 📫 eserosep.venture@gmail.com
 
 ## Disclaimer
 
