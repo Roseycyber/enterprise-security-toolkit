@@ -57,8 +57,8 @@ GRC or security background.
 ## Questions
 
 Not sure where to start, or want feedback on an idea before you build it? Open
-an issue and ask. No question is too basic — helping people learn is part of the
-point of this project.
+an issue and ask — that's the best way to reach the maintainer. No question is
+too basic — helping people learn is part of the point of this project.
 
 By contributing, you agree that your contributions will be licensed under the
 same [MIT License](LICENSE) that covers this project.
