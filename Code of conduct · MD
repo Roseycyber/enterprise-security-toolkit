@@ -1,0 +1,53 @@
+# Code of Conduct
+
+## Our commitment
+
+This project welcomes contributors of all backgrounds and experience levels. We
+are committed to providing a friendly, safe, and respectful environment for
+everyone — whether you're opening your first issue or you're a seasoned security
+professional.
+
+## Expected behaviour
+
+- Be respectful, considerate, and constructive in all interactions.
+- Welcome newcomers and help them learn; assume good intent.
+- Give and accept feedback graciously — critique the work, not the person.
+- Respect differing viewpoints and experiences.
+- Keep discussion focused on what's best for the project and its community.
+
+## Unacceptable behaviour
+
+- Harassment, insults, or derogatory comments of any kind.
+- Discriminatory language or imagery, or unwelcome personal attention.
+- Personal or political attacks.
+- Publishing others' private information without permission.
+- Sharing real credentials, exploit code intended to cause harm, or any content
+  that violates this project's defensive-security purpose.
+- Any other conduct that would reasonably be considered inappropriate in a
+  professional setting.
+
+## Scope
+
+This Code of Conduct applies within all project spaces — issues, pull requests,
+discussions, and any other project communication — and when an individual is
+representing the project in public spaces.
+
+## Reporting
+
+If you experience or witness unacceptable behaviour, please report it privately
+to the project maintainer through GitHub — for example by using GitHub's
+private reporting features, or by contacting the maintainer via their GitHub
+profile. All reports will be reviewed and handled with discretion. The
+maintainer is committed to protecting the privacy and safety of anyone who
+reports an issue in good faith.
+
+## Enforcement
+
+The maintainer may take any action deemed appropriate, up to and including
+removing comments, rejecting contributions, or blocking contributors who violate
+this Code of Conduct.
+
+## Attribution
+
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org),
+a widely used standard for open-source communities.
